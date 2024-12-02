@@ -1,0 +1,23 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.idea/
+.vscode/
+
+
+
+# Python
+*.pyc
+
+# Logs
+*.log
+
+# Build artifacts
+*.o
+*.class
+
+.build/
+build/
+
