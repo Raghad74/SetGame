@@ -83,10 +83,12 @@ Card* analyzeCard(cv::Mat& card,cv::Rect& boundingRect){
 
 }
 
-
+//sets/setBrown2.jpeg
 int main()
 {
-  std::string imPath="sets/setBrown2.jpeg";
+  std::string imPath;
+  std::cout<<"Enter image Path"<<std::endl;
+  std::cin>>imPath;
   cv::Mat image=cv::imread(imPath);
   cv::resize(image, image, cv::Size(1500, static_cast<int>(image.rows * 1500.0 / image.cols))); 
   cv::Mat copy=image;
