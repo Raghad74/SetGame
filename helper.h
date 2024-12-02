@@ -8,8 +8,14 @@
 #include <iostream>
 #include "Set.h"
 
-
+/*
+getContours- given an image and a filterVal , returns countours of said image 
+--the returned contours are only those whose area is larger than filterVal
+*/
 std::vector<std::vector<cv::Point>>* getContours(cv::Mat& image,int filterVal=0);
+/*
+getCards- 
+*/
 std::vector<cv::Rect>* getCards(cv::Mat& img);
 Feature getShape(cv::Mat& card);
 Feature getColor(cv::Mat& card,double* colored_pixeled_num);
