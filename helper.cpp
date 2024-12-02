@@ -1,6 +1,6 @@
 #include "helper.h"
 
-
+//ranges of colors
 cv::Scalar blueLower(100, 150, 80), blueUpper(130, 255, 255);
 cv::Scalar yellowLower(20, 150, 150), yellowUpper(30, 255, 255);
 cv::Scalar greenLower(40, 50, 50), greenUpper(80, 255, 255);

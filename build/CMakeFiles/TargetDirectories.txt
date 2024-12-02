@@ -1,3 +1,0 @@
-C:/Users/ragha/OneDrive/Desktop/openCV_starter/build/CMakeFiles/OpenCVExample.dir
-C:/Users/ragha/OneDrive/Desktop/openCV_starter/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/ragha/OneDrive/Desktop/openCV_starter/build/CMakeFiles/ZERO_CHECK.dir
