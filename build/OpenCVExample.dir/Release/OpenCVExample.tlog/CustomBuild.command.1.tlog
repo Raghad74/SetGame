@@ -1,0 +1,10 @@
+^C:\USERS\RAGHA\ONEDRIVE\DESKTOP\OPENCV_STARTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ragha/OneDrive/Desktop/openCV_starter -BC:/Users/ragha/OneDrive/Desktop/openCV_starter/build --check-stamp-file C:/Users/ragha/OneDrive/Desktop/openCV_starter/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
