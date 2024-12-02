@@ -106,8 +106,6 @@ int main()
     }
     
   }
-  //cv::imshow("cards",copy);
-  //TODO: change getSet to make it get the pointer and return nothing.
 
   std::vector<cv::Rect>* solution=new std::vector<cv::Rect>();
   setGame.getSet(solution);
