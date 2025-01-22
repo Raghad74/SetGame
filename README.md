@@ -22,3 +22,17 @@ Contributions are welcome! Feel free to open issues or submit pull requests to e
 
 Feel free to reach out with questions or suggestions to improve the project. Enjoy playing Set!
 
+## Demo
+
+### Example Input
+Below is an example input image:
+
+![Input Example](sets/setBrown2.jpeg)
+
+### Example Output
+After processing, the program detects the following Set and annotates the image:
+
+![Output Example](sets/output.png)
+
+
+
